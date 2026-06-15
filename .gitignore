@@ -8,21 +8,41 @@ node_modules/
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Build output
+# Build outputs
 dist/
 build/
+out/
+public/build/
 
 # Cache
 .cache/
 .parcel-cache/
+.eslintcache
+.stylelintcache
+.nyc_output/
 
-# Operating system files
-.DS_Store
-Thumbs.db
-Desktop.ini
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Editor directories
+.vscode/
+.idea/
 
 # Editor backup files
 *~
 *.swp
 *.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
