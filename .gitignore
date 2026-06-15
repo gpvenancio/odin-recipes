@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor backup files
+*~
+*.swp
+*.swo
