@@ -1,21 +1,38 @@
-# Project Recipes
+# Odin Recipes
 
-Basic website consisting of a main index page with links to recipes.
+A recipe website built as part of The Odin Project Foundations course.
 
 ## Overview
 
-This project is being built as a part of The Odin Project Foundations course.
+This project started as a basic HTML recipe site and will continue to grow as I learn new HTML, CSS,
+and web development concepts throughout the course.
 
-At this stage, the project is being set up and this README will be updated.
+The site currently includes a homepage with links to individual recipe pages. Each recipe page
+includes an image, description, serving information, preparation and cooking times, ingredients, step-
+by-step instructions, serving suggestions, and notes.
+
+## Recipes
+
+- Hearty Bolognese
+- Rustic Chicken Stew
+- Cozy Chicken Spaghetti
+
+## Built With
+
+- HTML
+- CSS
 
 ## Purpose
 
-The goal of this project is to practice Foundational HTML and project organization.
+The goal of this project is to practice foundational web development skills, including:
 
-## Built with
-
-1. HTML
+- HTML structure
+- Links and images
+- Lists and headings
+- File organization
+- Basic CSS styling
+- Future course concepts as they are introduced
 
 ## Status
 
-In progress
+Ongoing practice project
