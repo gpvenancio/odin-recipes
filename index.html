@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
     <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <h1 id="name">Odin Recipes</h1>
     <br />
 
     <img
+      id="menu-img"
       src="images/menu.png"
       alt="Elegant vintage restaurant menu header with ornate gold border and large centered MENU title on an ivory background"
       width="273"
@@ -18,12 +20,33 @@
     />
 
     <ul>
-      <li><a href="recipes/hearty-bolognese.html">Hearty Bolognese</a></li>
-      <li>
-        <a href="recipes/rustic-chicken-stew.html">Rustic Chicken Stew</a>
+      <li class="menu-item">
+        <a class="link" href="recipes/hearty-bolognese.html"
+          >Hearty Bolognese</a
+        >
+        <p class="desc">
+          A rich, comforting Bolognese made with minced beef, mushrooms, onion,
+          leek, tomato, and slow simmered aromatics.
+        </p>
       </li>
-      <li>
-        <a href="recipes/cozy-chicken-spaghetti.html">Cozy Chicken Spaghetti</a>
+      <li class="menu-item">
+        <a class="link" href="recipes/rustic-chicken-stew.html">
+          Rustic Chicken Stew
+        </a>
+        <p class="desc">
+          A comforting one pot chicken stew made with white beans, butter beans,
+          leek, zucchini, carrot, elbow macaroni, tomato sauce, and Dijon
+          mustard.
+        </p>
+      </li>
+      <li class="menu-item">
+        <a class="link" href="recipes/cozy-chicken-spaghetti.html">
+          Cozy Chicken Spaghetti
+        </a>
+        <p class="desc">
+          A comforting one pot chicken and spaghetti dish cooked in a rich
+          tomato, paprika, garlic, and white wine sauce.
+        </p>
       </li>
     </ul>
   </body>

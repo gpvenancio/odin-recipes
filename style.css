@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff8e8;
+  color: #231502;
+  font-family: Verdana, Garamond, sans-serif;
+}
+
+#name {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#menu-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.menu-item {
+  width: 300px;
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.link {
+  color: #d0a671;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 12px;
+  margin: 0;
+}
