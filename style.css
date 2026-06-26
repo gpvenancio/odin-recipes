@@ -2,24 +2,40 @@
   box-sizing: border-box;
 }
 
+/* TODO: Fix font issue */
+
 body {
   background-color: #fff8e8;
   color: #231502;
-  font-family: Verdana, Garamond, sans-serif;
+  font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
 }
 
 #name {
+  font-size: 48px;
   width: fit-content;
   margin: 0 auto;
 }
 
 #menu-img {
   display: block;
-  margin: 0 auto;
+  width: 350px;
+  height: auto;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dish {
+  display: block;
+  width: 350px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-item {
-  width: 300px;
+  width: 350px;
   font-size: 14px;
   margin: 10px auto;
 }
