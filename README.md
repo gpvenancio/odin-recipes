@@ -35,4 +35,8 @@ The goal of this project is to practice foundational web development skills, inc
 
 ## Status
 
-Ongoing practice project
+Ongoing practice project. Current pages include shared CSS styling and image assets for the homepage and individual recipes.
+
+## Assets
+
+Recipe and menu images were generated with AI image tooling and include provenance metadata.
