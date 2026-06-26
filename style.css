@@ -5,7 +5,8 @@
 body {
   background-color: #fff8e8;
   color: #231502;
-  font-family: 'Brush Script MT', 'Lucida Handwriting', cursive, serif;
+  font-family: 'Lucida Handwriting', cursive, serif;
+  margin: 20px;
 }
 
 #name {
@@ -16,7 +17,7 @@ body {
 
 #menu-img {
   display: block;
-  width: 350px;
+  width: 550px;
   height: auto;
   margin-top: -20px;
   margin-left: auto;
@@ -25,30 +26,45 @@ body {
 
 #dish {
   display: block;
-  width: 350px;
-  height: 197px;
+  width: 550px;
+  height: 250px;
   object-fit: cover;
   margin: 5px auto 0;
 }
 
 .menu-item {
   width: 500px;
-  font-size: 14px;
+  font-size: 18px;
   margin: 10px auto;
+}
+
+.desc {
+  font-size: 18px;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .recipe {
   max-width: 500px;
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 18px;
   text-align: justify;
+}
+
+.recipe p,
+.recipe ol,
+.recipe ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .link {
   color: #d0a671;
+  font-weight: bold;
 }
 
-.desc {
-  font-size: 12px;
-  margin: 0;
+.home {
+  color: #d0a671;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
 }
